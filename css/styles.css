@@ -284,6 +284,10 @@ address {
   margin-right: 70px;
 }
 
+.footer-social-links {
+  margin-right: 93px;
+}
+
 .footer-title {
   font-weight: 700;
   font-size: 14px;
@@ -331,6 +335,42 @@ address {
   width: 20px;
   height: 20px;
   fill: var(--background-color);
+}
+
+.form-footer {
+  margin-right: 12px;
+}
+
+.modal-input-footer {
+  width: 358px;
+  height: 50px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(71, 9, 9, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.modal-input-footer::placeholder {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 295px;
+  padding-left: 16px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Buttons */
@@ -402,6 +442,32 @@ address {
 
 .filter-btn:not(:last-child) {
   margin-right: 8px;
+}
+
+.button-send-footer {
+  width: 200px;
+  height: 50px;
+
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: transparent;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button-title {
+  margin-right: 10px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  color: var(--background-color);
 }
 
 /* WORKS Portfolio */
